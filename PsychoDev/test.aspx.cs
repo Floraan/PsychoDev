@@ -5,8 +5,8 @@ using System.Web.UI;
 namespace PsychoDev
 {
 
-    public partial class Default
+    public partial class test : System.Web.UI.Page
     {
-        protected System.Web.UI.WebControls.Button button1;
+
     }
 }

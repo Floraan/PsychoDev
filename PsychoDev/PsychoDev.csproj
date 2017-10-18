@@ -34,7 +34,6 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
-    <Content Include="Default.aspx" />
     <Content Include="index.html" />
     <Content Include="assets\vendor_components\Flot\excanvas.js" />
     <Content Include="assets\vendor_components\Flot\excanvas.min.js" />
@@ -10156,16 +10155,31 @@
     <Content Include="js\pages\widget-inline-charts.min.js" />
     <Content Include="js\pages\widget-morris-charts.js" />
     <Content Include="js\pages\widget-morris-charts.min.js" />
+    <Content Include="master.master" />
+    <Content Include="Default.aspx" />
+    <Content Include="test.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="master.master.cs">
+      <DependentUpon>master.master</DependentUpon>
+    </Compile>
+    <Compile Include="master.master.designer.cs">
+      <DependentUpon>master.master</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -10984,7 +10998,7 @@
     <None Include="assets\vendor_plugins\input-mask\phone-codes\readme.txt" />
     <None Include="assets\vendor_plugins\weather-icons\license.txt" />
     <None Include="images\Thumbs.db" />
-    <None Include="images\favicon.ico" />
+    <None Include="images\psycon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
